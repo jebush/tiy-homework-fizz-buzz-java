@@ -3,8 +3,8 @@
  */
 public class FizzBuzz {
 
-    public void doIt(){
-        for(int i = 1 ; i <= 100 ; i++){
+    public void doIt(int start, int end){
+        for(int i = start ; i <= end ; i++){
             if (i % 15 == 0) {
                 System.out.println("FizzBuzz");
 

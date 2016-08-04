@@ -4,7 +4,7 @@
 public class Main {
     public static void main(String[] args){
         FizzBuzz myBuzz = new FizzBuzz();
-        myBuzz.doIt();
+        myBuzz.doIt(1, 100);
 
     }
 }
